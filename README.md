@@ -6,6 +6,7 @@ This repository contains the ETL (Extract, Transform, Load) implementation for t
 
 # Data Model
 1.Dimensional Data: Customer data is stored as a Delta table on Databricks.
+
 2.Fact Data: Transaction data is available in CSV format.
 
 # ETL Solution Components
