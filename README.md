@@ -2,12 +2,18 @@
 
 # Overview
 This repository contains the ETL (Extract, Transform, Load) implementation for the apple data analysis. The solution is designed to handle diverse data formats and is implemented on Databricks using PySpark, Python, and Databricks utilities. The data model consists of dimensional data (Customers) and fact data (Transactions)
+As a part of this project we are solving 4 business problem statements.
+
+1. Customers who have bought AirPods after buying iPhone
+2. Customers who have bought both AirPods and iPhone
+3. List all the products bought by customers after the initial purchase
+4. Determine the time delay buying an iPhone and buying AirPods for each customer
 
 
 # Data Model
-1.Dimensional Data: Customer data is stored as a Delta table on Databricks.
+1. Dimensional Data: Customer data is stored as a Delta table on Databricks.
 
-2.Fact Data: Transaction data is available in CSV format.
+2. Fact Data: Transaction data is available in CSV format.
 
 # ETL Solution Components
 
